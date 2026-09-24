@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Pritam Sarkar portfolio preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#08111f"/><stop offset="1" stop-color="#111d38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#38c9ed"/><stop offset="1" stop-color="#9b87fa"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8ee8ff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="990" cy="160" r="180" fill="#7660e8" opacity=".14"/>
+  <circle cx="930" cy="470" r="120" fill="#38c9ed" opacity=".12"/>
+  <text x="90" y="170" fill="#8ee8ff" font-family="monospace" font-size="22" letter-spacing="5">PRITAM SARKAR / 01</text>
+  <text x="90" y="285" fill="#f4f8fc" font-family="Arial, sans-serif" font-size="72" font-weight="700">AI Researcher</text>
+  <text x="90" y="370" fill="#f4f8fc" font-family="Arial, sans-serif" font-size="72" font-weight="700">× ML Engineer</text>
+  <rect x="90" y="430" width="280" height="4" rx="2" fill="url(#accent)"/>
+  <text x="90" y="500" fill="#aebbd0" font-family="monospace" font-size="20">MACHINE LEARNING · RESEARCH · DATA SYSTEMS</text>
+  <g transform="translate(900 270)" fill="none" stroke="#8ee8ff" stroke-width="2" opacity=".85">
+    <path d="M0-125 86-42 111 76-12 132-118 43-86-58Z"/>
+    <path d="M0-125 12-30 111 76M12-30-86-58M12-30-12 132M12-30-118 43"/>
+    <circle cx="0" cy="-125" r="7" fill="#8ee8ff"/><circle cx="86" cy="-42" r="7" fill="#9b87fa"/>
+    <circle cx="111" cy="76" r="7" fill="#8ee8ff"/><circle cx="-12" cy="132" r="7" fill="#9b87fa"/>
+    <circle cx="-118" cy="43" r="7" fill="#8ee8ff"/><circle cx="-86" cy="-58" r="7" fill="#9b87fa"/>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /cv
+Sitemap: https://your-domain.example/sitemap.xml
