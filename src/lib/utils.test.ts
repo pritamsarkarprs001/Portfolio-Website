@@ -4,6 +4,7 @@ import { publications } from '../data/publications';
 import { cvSource, cvSourceAvailable } from '../data/cvSource';
 import { certifications } from '../data/certifications';
 import { conferences } from '../data/conferences';
+import { education } from '../data/education';
 import { projects } from '../data/projects';
 
 describe('portfolio data contracts', () => {
@@ -34,5 +35,11 @@ describe('portfolio data contracts', () => {
     expect(cvSource).toContain('\\documentclass');
     expect(cvSource).toContain('Pritam Sarkar');
     expect(cvSource).not.toContain('<script');
+  });
+
+  it('does not publish a bachelor grade that is absent from the revised CV', () => {
+    const bachelor = education.find((item) => item.id === 'brac-bsc-cs');
+    expect(bachelor?.grade).toBeUndefined();
+    expect(cvSource).not.toMatch(/BRAC University, Dhaka, Bangladesh[^\n]*GPA:/);
   });
 });

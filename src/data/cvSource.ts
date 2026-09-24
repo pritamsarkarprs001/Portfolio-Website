@@ -96,7 +96,7 @@ Fresh Computer Science undergraduate from BRAC University seeking entry-level an
 \section{Education}
 
 \textbf{Bachelor of Science (B.Sc.) in Computer Science} \hfill Jan 2022 -- Apr 2026 \\
-BRAC University, Dhaka, Bangladesh \hfill GPA: 3.30 / 4.00
+BRAC University, Dhaka, Bangladesh \hfill
 
 \vspace{3pt}
 
@@ -137,7 +137,7 @@ T. Paul, \textbf{P. Sarkar} \\
 \textbf{Nationwide Wind Energy Resource Mapping in Bangladesh Using Self-Organizing Maps (SOM): A Machine Learning-Based Site Suitability Assessment} \\
 T. Paul, \textbf{P. Sarkar} \\
 \textit{International Conference on Big Data, IoT and Machine Learning, Springer, 2025 (pp. 415--429)} \\
-\href{https://link.springer.com/chapter/10.1007/978-3-032-15346-3_29}{https://link.springer.com/chapter/10.1007/978-3-032-15346-3_29}
+\href{https://link.springer.com/chapter/10.1007/978-3-032-15346-3_29}{https://link.springer.com/chapter/10.1007/978-3-032-15346-3\_29}
 
 \section{Conferences \& Presentations}
 
@@ -289,7 +289,8 @@ Vocal performance and appreciation of diverse musical genres, encompassing both 
   Date of Birth: & 29 December 2002 \\
 \end{tabular}
 
-\end{document}`;
+\end{document}
+`;
 
 export const cvSourceWarning =
   'This source preview may contain personal information. It is rendered as plain text and is not executed in the browser.';

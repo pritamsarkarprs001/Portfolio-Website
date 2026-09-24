@@ -3,11 +3,10 @@ import type { Education } from '../types';
 export const education: Education[] = [
   {
     id: 'brac-bsc-cs',
-    qualification: 'Bachelor of Science in Computer Science',
+    qualification: 'Bachelor of Science (B.Sc.) in Computer Science',
     institution: 'BRAC University',
     period: 'January 2022 — April 2026',
     location: 'Dhaka, Bangladesh',
-    grade: 'GPA 3.30 / 4.00',
     detail:
       'Computer Science foundation with research, software development, machine learning, and data analysis work.',
   },
